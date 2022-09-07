@@ -9,7 +9,7 @@ body {
   font-family: Roboto;
 }
 
-.header {
+#header {
   display: flex;
   flex-direction: column;
   background-color: #1F2937;
@@ -160,6 +160,10 @@ button {
   font-size: 20px;
 }
 
-.signup-left {
-  width:
+#footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #FFFFFF;
+  padding: 20px;
 }
