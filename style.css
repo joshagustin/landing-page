@@ -16,16 +16,21 @@ body {
   padding: 0 200px;
 }
 
-.header-top {
+.header-top,
+.header-bottom {
+  flex-grow: 1;
   display: flex;
+}
+
+.header-top {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
 }
 
 .header-bottom {
-  display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 50px 0;
   gap: 100px;
 }
@@ -107,18 +112,19 @@ img {
   display: flex;
   justify-content: center;
   background-color: #E5E7EB;
-  padding: 100px 0;
+  padding: 100px 350px;
 }
 
 .quote-text {
   font-size: 32px;
   font-style: italic;
   color: #1F2937;
-  font-weight: lighter;
+  font-weight: 300;
   align-self: center;
 }
 
 .quote-container {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   width: 800px;
